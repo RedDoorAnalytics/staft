@@ -1,0 +1,20 @@
+TITLE: `STAFT' : module to fit flexible parametric accelerated failure time models.
+
+DESCRIPTION/AUTHOR: 
+
+Description: staft fits flexible parametric accelerated failure time models using restricted cubic splines.
+This can be thought of as an accelerated failure time formulation of the Royston-Parmar model (stpm2). staft 
+can be used with single- or multiple-record or single- or multiple-failure st data. staft extends accelerated 
+failure time models to allow time-dependent acceleration factors, using splines. Post-estimation tools are available.
+
+KW: survival
+KW: parametric
+KW: flexible
+KW: accelerated failure time
+KW: single-failure
+KW: multiple-failure
+
+Author: Michael J. Crowther, University of Leicester
+Support: email michael.crowther@le.ac.uk
+
+Requires: Stata version 14.1
