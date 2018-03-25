@@ -2,7 +2,7 @@
 local drive /Users/Michael/Documents
 
 
-cd "`drive'/stdev/staft"
+cd "`drive'/staft"
 adopath ++ "./staft"
 clear all
 
