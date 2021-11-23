@@ -225,15 +225,19 @@ are convergence problems.
 {title:Author}
 
 {pstd}Michael J. Crowther{p_end}
-{pstd}Department of Health Sciences{p_end}
-{pstd}University of Leicester{p_end}
-{pstd}E-mail: {browse "mailto:michael.crowther@le.ac.uk":michael.crowther@le.ac.uk}{p_end}
+{pstd}Department of Medical Epidemiology and Biostatistics{p_end}
+{pstd}Karolinska Institutet{p_end}
+{pstd}E-mail: {browse "mailto:michael.crowther@ki.se":michael.crowther@ki.se}{p_end}
 
 {phang}
 Please report any errors you may find.{p_end}
 
 
 {title:References}
+
+{pstd}
+Crowther MJ, Royston P, Clements M. A flexible parametric accelerated failure time model. https://arxiv.org/abs/2006.06807
+{p_end}
 
 {pstd}
 P. Royston and M. K. B. Parmar. Flexible proportional-hazards and proportional-odds models for censored survival data, with 
