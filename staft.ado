@@ -29,7 +29,7 @@ To do
 */
 
 program staft, eclass sortpreserve properties(st)
-	version 12.1
+	version 15.1
 	
 	 if replay() {
                 syntax  [, DF(string) KNOTS(string) *]
