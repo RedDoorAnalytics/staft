@@ -11,4 +11,4 @@ net install staft, from("https://raw.githubusercontent.com/RedDoorAnalytics/staf
 
 # References
 
-Crowther MJ, Royston P, Clements M. Flexible parametric accelerated failure time models. (In Prep.)
+Crowther MJ, Royston P, Clements M. Flexible parametric accelerated failure time models (Under revision).
