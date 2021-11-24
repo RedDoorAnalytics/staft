@@ -1,6 +1,6 @@
 *! version 1.0.0 MJC
 
-version 12.1
+version 15.1
 mata:
 
 void staft_lf2(	transmorphic scalar M, 		///

@@ -1,0 +1,12 @@
+v 3
+d STAFT: flexible parametric accelerated failure time models
+d Author: Michael J. Crowther
+d Distribution-Date: 20211124
+f staft.ado
+f staft_pred.ado
+f staft.sthlp
+f staft_postestimation.sthlp
+f lstaft.mlib
+f rcsgen2.ado
+f stmerlin.ado
+e

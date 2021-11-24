@@ -20,24 +20,24 @@ To add
 
 
 program staft_pred
-	version 12.1
+	version 15.1
 	syntax newvarname [if] [in], 	[									///
-										XB								///
-										Hazard 							///
-										CUMHazard						///
-										Survival						///
-										AF								///
-										AFNUM(string)					/// -not documented-
-										AFDENOM(string)					/// -not documented-
-																		///
-										CI 								///
-										STDP							///
-										Level(cilevel) 					///
-										TIMEvar(varname) 				///
-										AT(string)						///
-										ZEROS							///
-																		///
-									]
+                        XB								///
+                        Hazard 							///
+                        CUMHazard						///
+                        Survival						///
+                        AF								///
+                        AFNUM(string)					/// -not documented-
+                        AFDENOM(string)					/// -not documented-
+                                                                                        ///
+                        CI 								///
+                        STDP							///
+                        Level(cilevel) 					///
+                        TIMEvar(varname) 				///
+                        AT(string)						///
+                        ZEROS							///
+                                                                                        ///
+                ]
 
 		marksample touse, novarlist
 		local newvarname `varlist'

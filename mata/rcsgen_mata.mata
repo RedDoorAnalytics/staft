@@ -1,4 +1,4 @@
-version 12.1
+version 15.1
 
 local RC real colvector
 local RS real scalar
@@ -7,10 +7,10 @@ mata:
 
 //calculate splines with provided knots
 real matrix rcsgen_core(	real colvector variable,	///
-							real rowvector knots, 		///
-							real scalar deriv,|			///
-							real matrix rmatrix			///
-						)
+                                real rowvector knots, 		///
+                                real scalar deriv,|			///
+                                real matrix rmatrix			///
+                        )
 {
 	`RS' Nobs, Nknots, kmin, kmax, interior, Nparams
 	real matrix splines, knots2

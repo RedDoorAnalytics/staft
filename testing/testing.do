@@ -1,5 +1,4 @@
-//local drive Z:
-local drive /Users/Michael/Documents
+local drive /Users/Michael/Documents/reddooranalytics/products
 
 
 cd "`drive'/staft"

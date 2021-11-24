@@ -1,12 +1,10 @@
-*! version 1.0.0 ?????2014
-
 program define rcsgen2, rclass
 	version 10.0
-	syntax  [varlist(default=none)] [if] [in] ,	[							///
-													Gen(string) 			///
-													Knots(numlist) 			///
-													RMATrix(name) 			///
-												]
+	syntax  [varlist(default=none)] [if] [in] ,	[       ///
+                        Gen(string) 			        ///
+                        Knots(numlist) 			        ///
+                        RMATrix(name) 			        ///
+                ]
 
 	marksample touse
 
@@ -54,4 +52,3 @@ program define rcsgen2, rclass
 	}
 	return local d2rcslist `d2rcslist'
 end
-
