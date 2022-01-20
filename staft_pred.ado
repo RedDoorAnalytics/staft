@@ -216,12 +216,12 @@ program staft_pred
 		if "`hazard'"!="" {
 			
 			local Nsplines : word count `e(rcsterms)'
-			local linpred xb(cons)
+			local linpred xb(/:cons)
 			local linpred2 0
 			local dxbpred 0
 			forvalues i=1/`Nsplines' {
-				local linpred `linpred' + xb(rcs`i')*_rcs`i'
-				local linpred2 `linpred2' + xb(rcs`i')*_d_rcs`i'
+				local linpred `linpred' + xb(/:rcs`i')*_rcs`i'
+				local linpred2 `linpred2' + xb(/:rcs`i')*_d_rcs`i'
 			}
 			if "`e(tvc)'"!="" {
 				local dxbpred xb(dxb)
@@ -271,9 +271,9 @@ program staft_pred
 		if ("`cumhazard'"!="" | "`survival'"!="") {
 		
 			local Nsplines : word count `e(rcsterms)'
-			local linpred xb(cons)
+			local linpred xb(/:cons)
 			forvalues i=1/`Nsplines' {
-				local linpred `linpred' + xb(rcs`i')*_rcs`i'
+				local linpred `linpred' + xb(/:rcs`i')*_rcs`i'
 			}
 			//log cumhazard or log(-log(survival))
 			qui predictnl double `newvarname' = `linpred' if `touse'
@@ -355,7 +355,7 @@ program staft_pred
 	
 end
 
-
+version 15.1
 mata:
 
 //get standard error of log cumulative hazard for prediction using delta method
