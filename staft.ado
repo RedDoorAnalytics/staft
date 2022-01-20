@@ -1,7 +1,9 @@
-*! version 1.0.0 24nov2021 MJC
+*! version 1.0.1 20jan2022 MJC
 
 /*
 History
+MJC 20jan2022: version 1.0.1 - bug fix; equation names for scalar parameters not updated for v15 - now fixed
+							 - version statements added
 MJC 24nov2021: version 1.0.0 - rebasing, moved to github
                              - minor edits/tidying
 MJC 31jul2017: version 0.1.2 - af prediction fixed for tvcs
@@ -53,6 +55,7 @@ program staft, eclass sortpreserve properties(st)
 end
 
 program Estimate, eclass
+	version 15.1
 	st_is 2 analysis	
 	syntax [varlist(default=empty)] [fw pw iw aw] [if] [in]         ///
 									///
@@ -372,6 +375,7 @@ program Estimate, eclass
 end
 
 program Replay
+	version 15.1
         syntax [, Level(cilevel) EFORM]
         ml display, level(`level') `eform'
 end
